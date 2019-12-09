@@ -38,6 +38,10 @@ input.upload {
     color:#333333;
 }
 
+.card-img-top{
+  height: 150px;
+}
+
 
 /* ################## Everything below is just for Search Bar, copied from colorlib.com################ */
 
