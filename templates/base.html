@@ -6,9 +6,11 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- <meta name="viewport" content="initial-scale=1, width=device-width"> -->
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-        {% block title %}
-        <title>HOMEPAGE</title>
-        {% endblock %}
+        {% if title %}
+          <title>{{ title }} </title>
+        {% else %}
+        <title>Rent-a-Space</title>
+        {% endif %}
     </head>
 
     <body>
@@ -118,7 +120,7 @@
                 <a href="#!">Become an Affiliate</a>
               </p>
               <p>
-                <a href="search">Help</a>
+                <a href="#">Help</a>
               </p>
             </div>
       
