@@ -4,8 +4,7 @@ A Flask-based website where users can post listings of available spaces they wan
 
 ### Prerequisites
 
-Must have Flask and Python 2.7 installed to run code in IDE other can be accessed on heroku
-
+Must have Flask and Python 2.7 installed to run code in IDE, otherwise webpage can be accessed on heroku
 
 ### Installing
 
